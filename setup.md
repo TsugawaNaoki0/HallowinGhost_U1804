@@ -69,6 +69,8 @@ git clone https://github.com/TsugawaNaoki0/login_database.git
 
 mv ./login_database/* ./
 
+-------------------------------------------------------------------
+
 apt install php-pdo
 
 yes | apt install php-mysql
@@ -78,6 +80,8 @@ sudo a2enmod proxy_fcgi setenvif
 sudo apt install libapache2-mod-php libapache2-mod-php
 
 sudo service apache2 restart
+
+-------------------------------------------------------------------
 
 yes | apt install python3-numpy
 
