@@ -48,6 +48,8 @@ mysql -u root -p
 
 [password]
 
+--------------------------------------------------------------------
+
 create database mail_pass;
 
 exit;
@@ -95,7 +97,6 @@ source ~/.profile
 
 pip3 install qrcode
 
---------------------------------------------------------------------
 apt install mysql-server
 
 apt install php-pdo
