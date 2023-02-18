@@ -73,8 +73,6 @@ git clone https://github.com/TsugawaNaoki0/zero_wiki.git
 
 mv ./login_database/* ./
 
-mv zero_wiki/* ./
-
 chmod 777 data/*
 
 while true; do python3 zeroWiki.py; sleep 60s; done
