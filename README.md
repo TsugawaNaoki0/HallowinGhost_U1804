@@ -73,9 +73,11 @@ git clone https://github.com/TsugawaNaoki0/zero_wiki.git
 
 mv ./login_database/* ./
 
-chmod 777 /zero_wiki/data/*
+git clone https://github.com/TsugawaNaoki0/zero_wiki.git
 
-while true; do python3 zeroWiki.py; sleep 60s; done
+chmod 777 zero_wiki/data/*
+
+while true; do python3 zero_wiki/zeroWiki.py; sleep 60s; done
 
 -------------------------------------------------------------------
 
